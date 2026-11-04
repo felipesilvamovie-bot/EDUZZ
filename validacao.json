@@ -6,7 +6,7 @@
   },
   "motores": {
     "coreyhaines31/marketingskills": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 58425,
         "ultimo_commit": "2026-10-31",
@@ -18,8 +18,9 @@
         "detalhe": "53/53 SKILL.md válidos"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "REVISADO",
+        "detalhe": "conteúdo revisado: 53 skills; copywriting (2,4 mil palavras), ad-creative (3,8 mil), offers (equação de valor), launch, marketing-psychology; cada skill tem pasta evals/ com testes",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
@@ -99,7 +100,7 @@
       ]
     },
     "blader/humanizer": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 64643,
         "ultimo_commit": "2026-10-28",
@@ -111,8 +112,9 @@
         "detalhe": "1/1 SKILL.md válidos"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "REVISADO",
+        "detalhe": "conteúdo revisado: 5,2 mil palavras, catálogo de padrões de IA por categoria, scripts e agentes; foco em inglês",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
@@ -231,7 +233,7 @@
       "ressalvas": []
     },
     "anthropics/skills": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 187266,
         "ultimo_commit": "2026-10-28",
@@ -243,8 +245,9 @@
         "detalhe": "20/20 SKILL.md válidos"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "REVISADO",
+        "detalhe": "conteúdo revisado: frontend-design (direção estética, processo planejar → revisar → construir → criticar), brand-guidelines, canvas-design; skills oficiais da Anthropic",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
@@ -413,7 +416,8 @@
       },
       "fun": {
         "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "detalhe": "conteúdo revisado (hyperframes: contrato e ciclo de trabalho; reverse-any-video: reconstruir qualquer vídeo e comparar o render com o original); execução do CLI pendente: rodar no computador",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
@@ -430,15 +434,16 @@
         "detalhe": "1/1 SKILL.md válidos"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "REVISADO",
+        "detalhe": "conteúdo revisado: checklist de 8 passos, tabela de durações, seleção de easing, personalidade de movimento",
+        "data": "2026-11-04"
       },
       "ressalvas": [
         "sem commit há 170 dias"
       ]
     },
     "WyattBlue/auto-editor": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 5766,
         "ultimo_commit": "2026-11-02",
@@ -450,8 +455,9 @@
         "detalhe": "README sim; manifesto: nenhum; SKILL.md válidos: 5"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "OK",
+        "detalhe": "cortou o silêncio: 6,0 s → 3.640000 s",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
@@ -469,12 +475,13 @@
       },
       "fun": {
         "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "detalhe": "estrutura validada (14 SKILL.md, CI com FFmpeg 6.1 a 9 no próprio repo); execução do código clonado bloqueada pela política desta sessão na nuvem: rodar no computador",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
     "SYSTRAN/faster-whisper": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 26470,
         "ultimo_commit": "2026-11-02",
@@ -486,13 +493,14 @@
         "detalhe": "README sim; manifesto: setup.py, requirements.txt; SKILL.md válidos: 0"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "OK",
+        "detalhe": "modelo tiny baixou, carregou e transcreveu com tempo por palavra. EXIGE pip install faster-whisper \"av<16\" (com PyAV 19 quebra: TypeError metadata_errors)",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },
     "browser-use/video-use": {
-      "status": "APROVADO",
+      "status": "VALIDADO",
       "met": {
         "estrelas": 30515,
         "ultimo_commit": "2026-10-08",
@@ -504,8 +512,9 @@
         "detalhe": "2/2 SKILL.md válidos"
       },
       "fun": {
-        "status": "PENDENTE",
-        "detalhe": "sem teste funcional nesta rodada"
+        "status": "REVISADO",
+        "detalhe": "conteúdo revisado: pipeline transcrever → empacotar → raciocinar → EDL → render → autoavaliação; transcrição exige chave ElevenLabs",
+        "data": "2026-11-04"
       },
       "ressalvas": []
     },

@@ -122,7 +122,7 @@ def main():
 
     ic = {"VALIDADO": "✅", "APROVADO": "🟢", "RESSALVA": "🟡", "REPROVADO": "❌"}
     md = [f"# Validação dos motores ({HOJE.isoformat()})", "",
-          "Gerado por `scripts/validate.py` + `scripts/smoke_tests.sh`. Rode de novo a cada mês: repositório bom de hoje pode quebrar amanhã.", "",
+          "Gerado por `scripts/validate.py`; os testes funcionais estão em `validacao_funcional.json` (feitos em 04/11/2026 instalando e rodando cada ferramenta numa mídia de teste). Rode de novo a cada mês: repositório bom de hoje pode quebrar amanhã.", "",
           "**Critérios**:",
           f"1. **Metadados**: {MIN_ESTRELAS}+ estrelas (ou organização oficial), commit nos últimos {MAX_DIAS_SEM_COMMIT} dias, licença aberta.",
           "2. **Estrutura**: clona, e as skills têm `SKILL.md` com `name` e `description` válidos (ou CLI/MCP com README e manifesto).",
