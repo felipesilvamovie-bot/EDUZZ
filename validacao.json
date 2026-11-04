@@ -1,0 +1,551 @@
+{
+  "data": "2026-11-04",
+  "criterios": {
+    "min_estrelas": 1000,
+    "max_dias_sem_commit": 120
+  },
+  "motores": {
+    "coreyhaines31/marketingskills": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 58425,
+        "ultimo_commit": "2026-10-31",
+        "dias": 4,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "53/53 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "wondelai/skills": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 2579,
+        "ultimo_commit": "2026-11-02",
+        "dias": 2,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "196/196 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "Jakeschincariol/instagram-agent-skill": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 4758,
+        "ultimo_commit": "2026-09-13",
+        "dias": 52,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "13/13 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "Jakeschincariol/youtube-agent-skill": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 4494,
+        "ultimo_commit": "2026-09-16",
+        "dias": 49,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "11/11 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "AgriciDaniel/claude-youtube": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 656,
+        "ultimo_commit": "2026-04-10",
+        "dias": 208,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "menos de 1000 estrelas",
+        "sem commit há 208 dias"
+      ]
+    },
+    "blader/humanizer": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 64643,
+        "ultimo_commit": "2026-10-28",
+        "dias": 7,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "pipeboard-co/meta-ads-mcp": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 1350,
+        "ultimo_commit": "2026-10-20",
+        "dias": 15,
+        "licenca": "NOASSERTION"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: pyproject.toml, setup.py, requirements.txt, Dockerfile; SKILL.md válidos: 0"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "licença NOASSERTION: conferir antes de uso comercial"
+      ]
+    },
+    "Affitor/affiliate-skills": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 763,
+        "ultimo_commit": "2026-10-19",
+        "dias": 16,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "55/55 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "menos de 1000 estrelas"
+      ]
+    },
+    "zubair-trabzada/ai-sales-team-claude": {
+      "status": "REPROVADO",
+      "met": {
+        "estrelas": 1504,
+        "ultimo_commit": "2026-03-27",
+        "dias": 222,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": false,
+        "detalhe": "0/14 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "sem commit há 222 dias"
+      ]
+    },
+    "devlikeapro/waha": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 7738,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "Apache-2.0"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: package.json, Dockerfile; SKILL.md válidos: 0"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 145006,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "13/13 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "Nutlope/hallmark": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 47424,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "anthropics/skills": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 187266,
+        "ultimo_commit": "2026-10-28",
+        "dias": 7,
+        "licenca": "-"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "20/20 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "GLips/Figma-Context-MCP": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 16153,
+        "ultimo_commit": "2026-10-27",
+        "dias": 8,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: package.json; SKILL.md válidos: 0"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "google-labs-code/stitch-skills": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 8674,
+        "ultimo_commit": "2026-08-17",
+        "dias": 79,
+        "licenca": "Apache-2.0"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "16/16 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 35454,
+        "ultimo_commit": "2026-10-14",
+        "dias": 21,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 1896,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "-"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "licença -: conferir antes de uso comercial"
+      ]
+    },
+    "ZeroLu/awesome-nanobanana-pro": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 10375,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "lista de consulta; README sim; 7 arquivos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "OSideMedia/higgsfield-ai-prompt-skill": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 852,
+        "ultimo_commit": "2026-10-25",
+        "dias": 10,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "36/36 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "menos de 1000 estrelas"
+      ]
+    },
+    "dexhunter/seedance2-skill": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 4403,
+        "ultimo_commit": "2026-09-19",
+        "dias": 46,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "2/2 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "smixs/visual-skills": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 623,
+        "ultimo_commit": "2026-09-16",
+        "dias": 49,
+        "licenca": "CC-BY-4.0"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "2/2 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "menos de 1000 estrelas",
+        "licença CC-BY-4.0: conferir antes de uso comercial"
+      ]
+    },
+    "heygen-com/hyperframes": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 78646,
+        "ultimo_commit": "2026-11-04",
+        "dias": 0,
+        "licenca": "Apache-2.0"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "28/28 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "LottieFiles/motion-design-skill": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 2766,
+        "ultimo_commit": "2026-05-18",
+        "dias": 170,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "1/1 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "sem commit há 170 dias"
+      ]
+    },
+    "WyattBlue/auto-editor": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 5766,
+        "ultimo_commit": "2026-11-02",
+        "dias": 2,
+        "licenca": "Unlicense"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: nenhum; SKILL.md válidos: 5"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "kajisho5/ffmpeg-skill": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 4489,
+        "ultimo_commit": "2026-10-31",
+        "dias": 4,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "14/14 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "SYSTRAN/faster-whisper": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 26470,
+        "ultimo_commit": "2026-11-02",
+        "dias": 2,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: setup.py, requirements.txt; SKILL.md válidos: 0"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "browser-use/video-use": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 30515,
+        "ultimo_commit": "2026-10-08",
+        "dias": 27,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "2/2 SKILL.md válidos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "czlonkowski/n8n-mcp": {
+      "status": "APROVADO",
+      "met": {
+        "estrelas": 23198,
+        "ultimo_commit": "2026-11-03",
+        "dias": 1,
+        "licenca": "MIT"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "README sim; manifesto: package.json, Dockerfile; SKILL.md válidos: 15"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": []
+    },
+    "enescingoz/awesome-n8n-templates": {
+      "status": "RESSALVA",
+      "met": {
+        "estrelas": 26254,
+        "ultimo_commit": "2026-09-12",
+        "dias": 53,
+        "licenca": "NOASSERTION"
+      },
+      "est": {
+        "ok": true,
+        "detalhe": "lista de consulta; README sim; 416 arquivos"
+      },
+      "fun": {
+        "status": "PENDENTE",
+        "detalhe": "sem teste funcional nesta rodada"
+      },
+      "ressalvas": [
+        "licença NOASSERTION: conferir antes de uso comercial"
+      ]
+    }
+  }
+}

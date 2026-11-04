@@ -1,0 +1,47 @@
+# Validação dos motores do Guia Master 2027 (2026-11-04)
+
+Gerado por `scripts/validate.py` + `scripts/smoke_tests.sh`. Rode de novo a cada mês: repositório bom de hoje pode quebrar amanhã.
+
+**Critérios**:
+1. **Metadados**: 1000+ estrelas (ou organização oficial), commit nos últimos 120 dias, licença aberta.
+2. **Estrutura**: clona, e as skills têm `SKILL.md` com `name` e `description` válidos (ou CLI/MCP com README e manifesto).
+3. **Funcional**: ferramentas são instaladas e rodadas numa mídia de teste, com o **resultado conferido**. Skills de instrução têm o **conteúdo revisado** (substância, método, evals).
+
+✅ VALIDADO (1+2+3) · 🟢 APROVADO (1+2; o funcional depende de programa aberto, de chave ou de rodar no computador) · 🟡 RESSALVA (passou, com limite declarado) · ❌ REPROVADO
+
+| Trilha | Skill | Papel | Motor | Status | ★ | Último commit | Estrutura | Teste funcional | Ressalvas |
+|---|---|---|---|---|---|---|---|---|---|
+| 1-identidade | `identidade` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 1-identidade | `identidade` | reserva | [wondelai/skills](https://github.com/wondelai/skills) | 🟢 APROVADO | 2579 | 2026-11-02 | 196/196 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 2-oferta | `oferta` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 3-conteudo | `conteudo-viral` | primario | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | 🟢 APROVADO | 4758 | 2026-09-13 | 13/13 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 3-conteudo | `conteudo-viral` | primario | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) | 🟢 APROVADO | 4494 | 2026-09-16 | 11/11 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 3-conteudo | `conteudo-viral` | reserva | [AgriciDaniel/claude-youtube](https://github.com/AgriciDaniel/claude-youtube) | 🟡 RESSALVA | 656 | 2026-04-10 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | menos de 1000 estrelas; sem commit há 208 dias |
+| 3-conteudo | `conteudo-viral` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 3-conteudo | `conteudo-viral` | reserva | [blader/humanizer](https://github.com/blader/humanizer) | 🟢 APROVADO | 64643 | 2026-10-28 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 4-aquisicao | `aquisicao` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 4-aquisicao | `aquisicao` | reserva | [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) | 🟡 RESSALVA | 1350 | 2026-10-20 | README sim; manifesto: pyproject.toml, setup.py, requirements.txt, Dockerfile; SKILL.md válidos: 0 | PENDENTE: sem teste funcional nesta rodada | licença NOASSERTION: conferir antes de uso comercial |
+| 4-aquisicao | `aquisicao` | estudo | [Affitor/affiliate-skills](https://github.com/Affitor/affiliate-skills) | 🟡 RESSALVA | 763 | 2026-10-19 | 55/55 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | menos de 1000 estrelas |
+| 5-comercial | `comercial` | estudo | [zubair-trabzada/ai-sales-team-claude](https://github.com/zubair-trabzada/ai-sales-team-claude) | ❌ REPROVADO | 1504 | 2026-03-27 | 0/14 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | sem commit há 222 dias |
+| 5-comercial | `comercial` | primario | [devlikeapro/waha](https://github.com/devlikeapro/waha) | 🟢 APROVADO | 7738 | 2026-11-04 | README sim; manifesto: package.json, Dockerfile; SKILL.md válidos: 0 | PENDENTE: sem teste funcional nesta rodada | — |
+| 5-comercial | `comercial` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 🟢 APROVADO | 145006 | 2026-11-04 | 13/13 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 🟢 APROVADO | 47424 | 2026-11-04 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [anthropics/skills](https://github.com/anthropics/skills) | 🟢 APROVADO | 187266 | 2026-10-28 | 20/20 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | reserva | [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | 🟢 APROVADO | 16153 | 2026-10-27 | README sim; manifesto: package.json; SKILL.md válidos: 0 | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | reserva | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | 🟢 APROVADO | 8674 | 2026-08-17 | 16/16 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 🟢 APROVADO | 35454 | 2026-10-14 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill](https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill) | 🟡 RESSALVA | 1896 | 2026-11-04 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | licença -: conferir antes de uso comercial |
+| 6-criacao-ia | `criacao-ia` | reserva | [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro) | 🟢 APROVADO | 10375 | 2026-11-04 | lista de consulta; README sim; 7 arquivos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill) | 🟡 RESSALVA | 852 | 2026-10-25 | 36/36 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | menos de 1000 estrelas |
+| 6-criacao-ia | `criacao-ia` | primario | [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) | 🟢 APROVADO | 4403 | 2026-09-19 | 2/2 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | reserva | [smixs/visual-skills](https://github.com/smixs/visual-skills) | 🟡 RESSALVA | 623 | 2026-09-16 | 2/2 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | menos de 1000 estrelas; licença CC-BY-4.0: conferir antes de uso comercial |
+| 6-criacao-ia | `criacao-ia` | primario | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 🟢 APROVADO | 78646 | 2026-11-04 | 28/28 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [LottieFiles/motion-design-skill](https://github.com/LottieFiles/motion-design-skill) | 🟡 RESSALVA | 2766 | 2026-05-18 | 1/1 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | sem commit há 170 dias |
+| 6-criacao-ia | `criacao-ia` | primario | [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) | 🟢 APROVADO | 5766 | 2026-11-02 | README sim; manifesto: nenhum; SKILL.md válidos: 5 | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 🟢 APROVADO | 4489 | 2026-10-31 | 14/14 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | primario | [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 🟢 APROVADO | 26470 | 2026-11-02 | README sim; manifesto: setup.py, requirements.txt; SKILL.md válidos: 0 | PENDENTE: sem teste funcional nesta rodada | — |
+| 6-criacao-ia | `criacao-ia` | reserva | [browser-use/video-use](https://github.com/browser-use/video-use) | 🟢 APROVADO | 30515 | 2026-10-08 | 2/2 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |
+| 7-operacao | `operacao-2027` | primario | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 🟢 APROVADO | 23198 | 2026-11-03 | README sim; manifesto: package.json, Dockerfile; SKILL.md válidos: 15 | PENDENTE: sem teste funcional nesta rodada | — |
+| 7-operacao | `operacao-2027` | reserva | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 🟡 RESSALVA | 26254 | 2026-09-12 | lista de consulta; README sim; 416 arquivos | PENDENTE: sem teste funcional nesta rodada | licença NOASSERTION: conferir antes de uso comercial |
+| 7-operacao | `operacao-2027` | primario | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 🟢 APROVADO | 58425 | 2026-10-31 | 53/53 SKILL.md válidos | PENDENTE: sem teste funcional nesta rodada | — |

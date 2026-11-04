@@ -1,0 +1,376 @@
+{
+  "nome": "GUIA MASTER 2027: registro de motores",
+  "atualizado": "2026-11-04",
+  "regra": "Cada trilha tem uma skill própria (o método) e repositórios externos validados (a execução). Primário é o padrão; reserva entra se o primário não servir; estudo é só consulta.",
+  "atividades": [
+    {
+      "id": "1-identidade",
+      "skill": "identidade",
+      "motores": [
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "product-marketing",
+            "customer-research",
+            "competitor-profiling"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        },
+        {
+          "repo": "wondelai/skills",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "frameworks de livros de negócio e marketing"
+          ],
+          "instalar": "npx skills add wondelai/skills"
+        }
+      ]
+    },
+    {
+      "id": "2-oferta",
+      "skill": "oferta",
+      "motores": [
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "offers",
+            "pricing",
+            "launch",
+            "lead-magnets"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        }
+      ]
+    },
+    {
+      "id": "3-conteudo",
+      "skill": "conteudo-viral",
+      "motores": [
+        {
+          "repo": "Jakeschincariol/instagram-agent-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "Reels com 26 fórmulas de gancho pontuadas"
+          ],
+          "instalar": "npx skills add Jakeschincariol/instagram-agent-skill"
+        },
+        {
+          "repo": "Jakeschincariol/youtube-agent-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "roteiros com 21 fórmulas de gancho"
+          ],
+          "instalar": "npx skills add Jakeschincariol/youtube-agent-skill"
+        },
+        {
+          "repo": "AgriciDaniel/claude-youtube",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "auditoria de canal, SEO, roteiro de retenção, thumbnail"
+          ],
+          "instalar": "npx skills add AgriciDaniel/claude-youtube"
+        },
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "content-strategy",
+            "social",
+            "video",
+            "copywriting"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        },
+        {
+          "repo": "blader/humanizer",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "tirar a cara de IA (textos em inglês)"
+          ],
+          "instalar": "npx skills add blader/humanizer"
+        }
+      ]
+    },
+    {
+      "id": "4-aquisicao",
+      "skill": "aquisicao",
+      "motores": [
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "ads",
+            "ad-creative",
+            "launch",
+            "emails",
+            "cro",
+            "ab-testing"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        },
+        {
+          "repo": "pipeboard-co/meta-ads-mcp",
+          "papel": "reserva",
+          "tipo": "mcp",
+          "usar": [
+            "ler e operar campanhas Meta"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "Affitor/affiliate-skills",
+          "papel": "estudo",
+          "tipo": "skill",
+          "usar": [
+            "programa de afiliados"
+          ],
+          "instalar": "estudo"
+        }
+      ]
+    },
+    {
+      "id": "5-comercial",
+      "skill": "comercial",
+      "motores": [
+        {
+          "repo": "zubair-trabzada/ai-sales-team-claude",
+          "papel": "estudo",
+          "tipo": "skill",
+          "usar": [
+            "REPROVADO na validação de 04/11/2026 (SKILL.md sem formato válido); só referência de fluxo BANT/MEDDIC"
+          ],
+          "instalar": "git clone + seguir README"
+        },
+        {
+          "repo": "devlikeapro/waha",
+          "papel": "primario",
+          "tipo": "cli",
+          "usar": [
+            "API de WhatsApp para atendimento e follow-up"
+          ],
+          "instalar": "docker run devlikeapro/waha"
+        },
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "sales-enablement",
+            "cold-email",
+            "prospecting"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        }
+      ]
+    },
+    {
+      "id": "6-criacao-ia",
+      "skill": "criacao-ia",
+      "motores": [
+        {
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "inteligência de design para páginas e apps"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "Nutlope/hallmark",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "design sem cara de IA"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "anthropics/skills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "frontend-design",
+            "canvas-design",
+            "brand-guidelines"
+          ],
+          "instalar": "/plugin marketplace add anthropics/skills"
+        },
+        {
+          "repo": "GLips/Figma-Context-MCP",
+          "papel": "reserva",
+          "tipo": "mcp",
+          "usar": [
+            "ler layouts do Figma"
+          ],
+          "instalar": "npx figma-developer-mcp (ver README)"
+        },
+        {
+          "repo": "google-labs-code/stitch-skills",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "skills para o Stitch (Google) gerar interfaces"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "freestylefly/awesome-gpt-image-2",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "GPT Image 2: 530+ casos e templates"
+          ],
+          "instalar": "consulta / skills incluídas"
+        },
+        {
+          "repo": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "recomendar prompts entre 10 mil+ do Nano Banana Pro"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "ZeroLu/awesome-nanobanana-pro",
+          "papel": "reserva",
+          "tipo": "lista",
+          "usar": [
+            "biblioteca de prompts Nano Banana Pro"
+          ],
+          "instalar": "consulta"
+        },
+        {
+          "repo": "OSideMedia/higgsfield-ai-prompt-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "prompts cinematográficos para Higgsfield (Seedance, Kling, Veo)"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "dexhunter/seedance2-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "prompts de vídeo Seedance 2"
+          ],
+          "instalar": "npx skills add dexhunter/seedance2-skill"
+        },
+        {
+          "repo": "smixs/visual-skills",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "direção de filme para IA: dramaturgia, blocking, montagem"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "motion e vídeo por HTML (cerca de 450 blocos)"
+          ],
+          "instalar": "npx hyperframes skills update"
+        },
+        {
+          "repo": "LottieFiles/motion-design-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "princípios de timing e easing"
+          ],
+          "instalar": "npx skills add LottieFiles/motion-design-skill"
+        },
+        {
+          "repo": "WyattBlue/auto-editor",
+          "papel": "primario",
+          "tipo": "cli",
+          "usar": [
+            "cortar silêncio e exportar para Premiere/Resolve"
+          ],
+          "instalar": "pip install auto-editor"
+        },
+        {
+          "repo": "kajisho5/ffmpeg-skill",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "42 ferramentas de edição com verificação"
+          ],
+          "instalar": "npx ffmpeg-skill"
+        },
+        {
+          "repo": "SYSTRAN/faster-whisper",
+          "papel": "primario",
+          "tipo": "lib",
+          "usar": [
+            "transcrição e legenda palavra por palavra"
+          ],
+          "instalar": "pip install faster-whisper \"av<16\""
+        },
+        {
+          "repo": "browser-use/video-use",
+          "papel": "reserva",
+          "tipo": "skill",
+          "usar": [
+            "edição de bruto por agente"
+          ],
+          "instalar": "ver README (chave ElevenLabs)"
+        }
+      ]
+    },
+    {
+      "id": "7-operacao",
+      "skill": "operacao-2027",
+      "motores": [
+        {
+          "repo": "czlonkowski/n8n-mcp",
+          "papel": "primario",
+          "tipo": "mcp",
+          "usar": [
+            "o Claude monta automações no n8n"
+          ],
+          "instalar": "ver README"
+        },
+        {
+          "repo": "enescingoz/awesome-n8n-templates",
+          "papel": "reserva",
+          "tipo": "lista",
+          "usar": [
+            "280+ automações prontas"
+          ],
+          "instalar": "consulta"
+        },
+        {
+          "repo": "coreyhaines31/marketingskills",
+          "papel": "primario",
+          "tipo": "skill",
+          "usar": [
+            "analytics",
+            "churn-prevention",
+            "community-marketing",
+            "onboarding",
+            "referrals"
+          ],
+          "instalar": "npx skills add coreyhaines31/marketingskills"
+        }
+      ]
+    }
+  ]
+}
